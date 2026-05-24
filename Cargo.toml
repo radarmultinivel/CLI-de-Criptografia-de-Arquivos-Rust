@@ -1,0 +1,15 @@
+# Desenvolvido por L. A. Leandro São José dos Campos- SP - 23/05/2026
+
+[package]
+name = "secure-cryptor-cli"
+version = "0.1.0"
+edition = "2021"
+description = "CLI de criptografia AES-256-GCM para arquivos locais em lote"
+
+[dependencies]
+clap = { version = "4", features = ["derive"] }
+aes-gcm = "0.10"
+rand = "0.8"
+hex = "0.4"
+sha2 = "0.10"
+indicatif = "0.17"

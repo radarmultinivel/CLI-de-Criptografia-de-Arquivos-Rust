@@ -1,0 +1,4 @@
+# Desenvolvido por L. A. Leandro São José dos Campos- SP - 23/05/2026
+
+[target.x86_64-pc-windows-gnu]
+linker = "x86_64-w64-mingw32-gcc"
